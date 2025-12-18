@@ -1,0 +1,17 @@
+{
+  "name": "tda_sync_io",
+  "version": "0.1.0",
+  "description": "sys-tdasyncio component for LOPs",
+  "category": "system",
+  "release_level": "prod",
+  "td": {
+    "build": "2023.12370"
+  },
+  "python": {
+    "backend": "pip",
+    "config": "requirements.txt",
+    "venv": "shared"
+  },
+  "author": "dotsimulate",
+  "repository": "lops-td/sys-tda-sync-io"
+}
