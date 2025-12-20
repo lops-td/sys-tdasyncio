@@ -2,6 +2,9 @@
   "name": "tdasyncio",
   "version": "0.1.0",
   "description": "TDAsyncIO - Async IO management for TouchDesigner",
+  "extends": [
+    "util-base-lop"
+  ],
   "category": "system",
   "release_level": "prod",
   "td": {
