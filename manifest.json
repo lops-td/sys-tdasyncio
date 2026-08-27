@@ -1,7 +1,8 @@
 {
   "name": "tdasyncio",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TDAsyncIO - Async IO management for TouchDesigner",
+  "license": "Apache-2.0",
   "extends": [
     "util-base-lop"
   ],

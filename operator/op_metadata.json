@@ -1,0 +1,112 @@
+{
+  "name": "TDAsyncIO",
+  "type": "baseCOMP",
+  "family": "COMP",
+  "tags": [
+    "LOP",
+    "tdasyncioLOP"
+  ],
+  "generated_at": "2026-08-26T22:27:11.246714",
+  "td_version": "099",
+  "td_build": "2023.12370",
+  "inputs": 0,
+  "outputs": 1,
+  "parameters": {
+    "AsyncIOManager": [
+      {
+        "name": "Clearafter",
+        "label": "Cleanup Age (seconds)",
+        "style": "Float",
+        "default": "60.0",
+        "is_read_only": false,
+        "section": false,
+        "min": 0.0,
+        "max": 1.0,
+        "norm_min": 120.0,
+        "norm_max": 3600.0
+      },
+      {
+        "name": "Updatetable",
+        "label": "Updatetable",
+        "style": "Toggle",
+        "default": "True",
+        "is_read_only": false,
+        "section": true
+      },
+      {
+        "name": "Cancelactive",
+        "label": "Cancel Active Tasks",
+        "style": "Pulse",
+        "default": "False",
+        "is_read_only": false,
+        "section": true
+      },
+      {
+        "name": "Clearall",
+        "label": "Cancel & Clear All",
+        "style": "Pulse",
+        "default": "False",
+        "is_read_only": false,
+        "section": false
+      },
+      {
+        "name": "Clearfinished",
+        "label": "Clear Finished Tasks",
+        "style": "Pulse",
+        "default": "False",
+        "is_read_only": false,
+        "section": false
+      }
+    ],
+    "About": [
+      {
+        "name": "Bypass",
+        "label": "Bypass",
+        "style": "Toggle",
+        "default": "False",
+        "is_read_only": false,
+        "section": false
+      },
+      {
+        "name": "Showbuiltin",
+        "label": "Show Built-in Parameters",
+        "style": "Toggle",
+        "default": "False",
+        "is_read_only": false,
+        "section": false
+      },
+      {
+        "name": "Version",
+        "label": "Version",
+        "style": "Str",
+        "default": "",
+        "is_read_only": true,
+        "section": true
+      },
+      {
+        "name": "Lastupdated",
+        "label": "Last Updated",
+        "style": "Str",
+        "default": "",
+        "is_read_only": true,
+        "section": false
+      },
+      {
+        "name": "Creator",
+        "label": "Creator",
+        "style": "Str",
+        "default": "",
+        "is_read_only": true,
+        "section": true
+      },
+      {
+        "name": "Website",
+        "label": "Website",
+        "style": "Str",
+        "default": "",
+        "is_read_only": true,
+        "section": false
+      }
+    ]
+  }
+}
